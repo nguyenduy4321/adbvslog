@@ -17,7 +17,25 @@
         "command": "adbvslog.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+   
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "extension-activity",
+          "title": "Your Extension",
+          "icon": "D:\\dtools\\cmder_mini\\icons\\cmder.ico"
+        }
+      ]
+    },
+    "views": {
+      "extension-activity": [
+        {
+          "id": "adbLogcatView",
+          "name": "ADB Logcat"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
