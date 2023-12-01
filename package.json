@@ -24,7 +24,7 @@
         {
           "id": "extension-activity",
           "title": "Your Extension",
-          "icon": "D:\\dtools\\cmder_mini\\icons\\cmder.ico"
+          "icon": "icons\\android.svg"
         }
       ]
     },
